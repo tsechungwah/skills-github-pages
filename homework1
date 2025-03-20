@@ -1,1 +1,9 @@
-print("謝仲華")
+def decimal_number(number)
+  binary_number = bin(number)[2:]
+  hexadecimal_number = hex(number)[2:]
+  return f"十進位: {number}, 二進位: {binary_number}, 十六進位: {hexadecimal_number}"
+
+umb = decimal_number(0)
+nmb = decimal_number(255)
+print(umb)
+print(nmb)
